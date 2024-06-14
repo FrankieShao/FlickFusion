@@ -12,9 +12,9 @@ Supports: Android 📱, iOS📱, Desktop
 
 ## Screenshots
 
-![Android](path/to/home_screenshot.png)
-![iOS](path/to/details_screenshot.png)
-![Desktop](path/to/search_screenshot.png)
+![Android](https://github.com/FrankieShao/FlickFusion/blob/master/screenshots/Android_gif.gif)
+![iOS](https://github.com/FrankieShao/FlickFusion/blob/master/screenshots/iOS_gif.gif)
+![Desktop](https://github.com/FrankieShao/FlickFusion/blob/master/screenshots/desktop.png)
 
 ## Tech Stack ✨
 
@@ -22,10 +22,10 @@ Supports: Android 📱, iOS📱, Desktop
 - **[Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) (KMP)**  -  Enables sharing code across multiple platforms, such as Android, iOS, and the web, ensuring maximum code reuse and efficiency.
 
 - **Architecture**
-- [Domain Layer](https://developer.android.com/topic/architecture/domain-layer) design
-- Dependency Inversion 
-- MVVM Architecture
-- UDF ([Unidirectional Data Flow](https://developer.android.com/develop/ui/compose/architecture#udf-compose))
+  - [Domain Layer](https://developer.android.com/topic/architecture/domain-layer) design
+  - Dependency Inversion 
+  - MVVM Architecture
+  - UDF ([Unidirectional Data Flow](https://developer.android.com/develop/ui/compose/architecture#udf-compose))
 
 - **[Coroutines](https://developer.android.com/kotlin/coroutines) & [Flow](https://developer.android.com/kotlin/flow)**  -  Provides a framework for asynchronous programming and handling streams of data, allowing for efficient, non-blocking code execution.
 - **[Ktor](https://ktor.io/docs/client-create-new-application.html)**  -  A Kotlin framework for building asynchronous servers and clients in connected systems, used for handling network operations and API requests.
@@ -40,8 +40,8 @@ Supports: Android 📱, iOS📱, Desktop
 Obtain an API key from [TMDB](https://developer.themoviedb.org/reference/intro/authentication
 ) and add it to your local.properties file:
    ```
-   apiKey=
-   accountId=
+   apiKey=your api key
+   accountId=your account id
    ```
 ### Todo
 - Unit Tests
