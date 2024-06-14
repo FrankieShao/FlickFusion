@@ -53,6 +53,9 @@ Obtain an API key from [TMDB](https://developer.themoviedb.org/reference/intro/a
 ### Contribute
 If you want to contribute to this, you're always welcome!
 
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 
 
