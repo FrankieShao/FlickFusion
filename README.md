@@ -12,9 +12,38 @@ Supports: Android 📱, iOS📱, Desktop
 
 ## Screenshots
 
-![Android](https://github.com/FrankieShao/FlickFusion/blob/master/screenshots/Android_gif.gif)
-![iOS](https://github.com/FrankieShao/FlickFusion/blob/master/screenshots/iOS_gif.gif)
-![Desktop](https://github.com/FrankieShao/FlickFusion/blob/master/screenshots/desktop.png)
+<table style="padding:10px">
+	<tr>
+		<td align="center">
+			<h2>Android</h2>
+		</td>
+		<td align="center">
+			<h2>iOS</h2>
+		</td>
+  	</tr>
+	<tr>
+    	<td align="center">
+			<img src="screenshots/Android_gif.gif" alt="Android" width="300"/>
+    	</td>
+		<td align="center">
+			<img src="screenshots/iOS_gif.gif" alt="iOS" width="300"/>
+    	</td>
+  	</tr>
+</table>
+
+
+<table style="padding:10px">
+	<tr>
+		<td align="center">
+			<h2>Desktop</h2>
+		</td>
+  	</tr>
+	<tr>
+    	<td align="center">
+			<img src="screenshots/desktop.png" alt="Desktop" width="500"/>
+    	</td>
+  	</tr>
+</table>
 
 ## Tech Stack ✨
 
