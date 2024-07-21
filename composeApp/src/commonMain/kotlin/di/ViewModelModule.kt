@@ -1,10 +1,10 @@
 package di
 
-import feature.favorite.FavoriteMainViewModel
 import feature.main.movie.vm.MovieFeedViewModel
 import feature.main.tv.vm.TVFeedViewModel
-import feature.mine.MineViewModel
-import feature.search.GenresViewModel
+import profile.MineViewModel
+import favorite.FavoriteMainViewModel
+import search.GenresViewModel
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.module
 

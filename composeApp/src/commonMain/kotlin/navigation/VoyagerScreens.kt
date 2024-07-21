@@ -8,18 +8,18 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.core.screen.uniqueScreenKey
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import core.domain.model.MediaType
-import feature.detail.MediaDetailScreen
-import feature.detail.MediaDetailViewModel
-import feature.favorite.FavoriteMainScreen
+import detail.MediaDetailViewModel
+import detail.MediaDetailScreen
+import favorite.FavoriteMainScreen
 import feature.main.HomeMainScreen
 import feature.main.list.CategoryList
 import feature.main.list.CategoryListViewModel
-import feature.mine.MineScreen
-import feature.mine.MineViewModel
-import feature.search.SearchMainScreen
 import org.koin.compose.koinInject
-import util.collectAsStateWithLifecycle
+import org.real.flickfusion.model.MediaType
+import org.real.flickfusion.util.collectAsStateWithLifecycle
+import profile.MineViewModel
+import profile.MineScreen
+import search.SearchMainScreen
 
 /**
  * @author Frank Shao

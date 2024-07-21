@@ -21,6 +21,7 @@ import coil3.util.DebugLogger
 import di.NetworkModule
 import di.PersistModule
 import di.RepoModule
+import di.ServiceModule
 import di.UseCaseModule
 import di.ViewModelModule
 import navigation.BottomNavigationBar
@@ -28,17 +29,16 @@ import navigation.HomeTab
 import navigation.TABS
 import org.jetbrains.compose.ui.tooling.preview.Preview
 import org.koin.compose.KoinApplication
-import ui.theme.AppTheme
-import ui.theme.ALL_BACKGROUND_GRADIENT
-import ui.theme.PART_BACKGROUND_GRADIENT
+import org.real.flickfusion.ui.theme.AppTheme
+import org.real.flickfusion.ui.theme.ALL_BACKGROUND_GRADIENT
+import org.real.flickfusion.ui.theme.PART_BACKGROUND_GRADIENT
 
 @OptIn(ExperimentalCoilApi::class)
 @Composable
 @Preview
 fun App() {
     KoinApplication(application = {
-        // todo all logger
-        modules(NetworkModule, PersistModule, UseCaseModule, RepoModule, ViewModelModule)
+        modules(NetworkModule, PersistModule, UseCaseModule, RepoModule, ViewModelModule, ServiceModule)
     }) {
         AppTheme {
             Surface(

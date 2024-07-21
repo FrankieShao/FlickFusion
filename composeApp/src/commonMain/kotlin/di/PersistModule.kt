@@ -1,8 +1,8 @@
 package di
 
-import core.services.local.AccountLocalSource
-import framework.persist.AccountLocalSourceImpl
 import org.koin.dsl.module
+import org.real.flickfusion.local.AccountLocalSource
+import org.real.flickfusion.local.AccountLocalSourceImpl
 
 /**
  * @author Frank Shao
@@ -10,5 +10,5 @@ import org.koin.dsl.module
  * Description: persist koin module, responsible for persist related dependencies
  */
 val PersistModule = module {
-    single<AccountLocalSource> { AccountLocalSourceImpl() }
+    single<AccountLocalSource> { AccountLocalSourceImpl(get()) }
 }

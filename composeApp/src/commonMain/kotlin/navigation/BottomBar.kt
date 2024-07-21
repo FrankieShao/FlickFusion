@@ -13,10 +13,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.navigator.tab.LocalTabNavigator
-import ui.theme.BG_Purple_End
-import ui.theme.BG_Purple_Start
-import ui.theme.SELECTED_COLOR
-import ui.theme.UNSELECTED_COLOR
+import org.real.flickfusion.ui.theme.BG_Purple_End
+import org.real.flickfusion.ui.theme.BG_Purple_Start
+import org.real.flickfusion.ui.theme.SELECTED_COLOR
+import org.real.flickfusion.ui.theme.UNSELECTED_COLOR
 
 /**
  * @author Frank Shao

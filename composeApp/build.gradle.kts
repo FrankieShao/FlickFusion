@@ -9,9 +9,8 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.compose.compiler)
-    alias(libs.plugins.kotlinSerialization)
-    alias(libs.plugins.sqldelight)
     alias(libs.plugins.buildkonfig)
+    alias(libs.plugins.kotlinSerialization)
     id("kotlin-parcelize")
 }
 
@@ -42,10 +41,7 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
-            implementation(libs.kotlinx.coroutines.android)
-            implementation(libs.sqldelight.android)
             implementation(libs.koin.android)
-            implementation(libs.ktor.client.android)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -57,39 +53,29 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.runtime.compose)
             implementation(libs.androidx.lifecycle.viewmodel.compose)
-            implementation(libs.kotlinx.coroutines.core)
-
             implementation(libs.voyager.navigation)
             implementation(libs.voyager.navigation.tabs)
-
-            //ktor
-            implementation(libs.ktor.client.core)
-            implementation(libs.ktor.client.auth)
-            implementation(libs.ktor.client.negotiation)
-            implementation(libs.ktor.client.logging)
-            implementation(libs.ktor.client.json)
-
-            implementation(libs.sqldelight.coroutines)
             implementation(libs.koin.core)
             implementation(libs.koin.compose)
-            implementation(libs.lottie)
             implementation(libs.coil)
             implementation(libs.coil.network.ktor)
             implementation(libs.coil.compose)
             implementation(libs.coil.compose.core)
-            implementation(libs.compose.constraintlayout)
-            implementation(libs.kermit)
+
+            implementation(project(":modules:feature:main"))
+            implementation(project(":modules:feature:mine"))
+            implementation(project(":modules:feature:search"))
+            implementation(project(":modules:feature:favorite"))
+            implementation(project(":modules:feature:detail"))
+            implementation(project(":modules:core:data"))
+            implementation(project(":modules:core:domain"))
+            implementation(project(":modules:core:service"))
+            implementation(project(":modules:framework:network"))
+            implementation(project(":modules:common-ui"))
+            implementation(project(":modules:util"))
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
-            implementation(libs.sqldelight.jvm)
-            implementation(libs.ktor.client.cio)
-            implementation(libs.kotlinx.coroutines.swing)
-        }
-
-        iosMain.dependencies {
-            implementation(libs.ktor.client.darwin)
-            implementation(libs.sqldelight.native)
         }
     }
 }
@@ -143,15 +129,6 @@ compose.desktop {
     }
 }
 
-kotlin {
-    sqldelight {
-        databases {
-            create("FlickFusion") {
-                packageName = "com.real"
-            }
-        }
-    }
-}
 
 buildkonfig {
     packageName = "org.real.flickfusion"
@@ -177,3 +154,4 @@ buildkonfig {
         )
     }
 }
+

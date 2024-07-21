@@ -1,23 +1,23 @@
 package di
 
-import core.domain.usecase.AddFavoriteUseCase
-import core.domain.usecase.FavoriteMovieUseCase
-import core.domain.usecase.FavoriteTvUseCase
-import core.domain.usecase.GenreUseCase
-import core.domain.usecase.GetInfoUseCase
-import core.domain.usecase.MediaDetailUseCase
-import core.domain.usecase.MovieNowPlayingUseCase
-import core.domain.usecase.MoviePopularUseCase
-import core.domain.usecase.MovieTopRatedUseCase
-import core.domain.usecase.MovieTrendingUseCase
-import core.domain.usecase.MovieUpcomingUseCase
-import core.domain.usecase.SearchUseCase
-import core.domain.usecase.TVAiringTodayUseCase
-import core.domain.usecase.TVOnTheAirUseCase
-import core.domain.usecase.TVPopularUseCase
-import core.domain.usecase.TVTopRatedUseCase
-import core.domain.usecase.TVTrendingUseCase
 import org.koin.dsl.module
+import org.real.flickfusion.usecase.AddFavoriteUseCase
+import org.real.flickfusion.usecase.FavoriteMovieUseCase
+import org.real.flickfusion.usecase.FavoriteTvUseCase
+import org.real.flickfusion.usecase.GenreUseCase
+import org.real.flickfusion.usecase.GetInfoUseCase
+import org.real.flickfusion.usecase.MediaDetailUseCase
+import org.real.flickfusion.usecase.MovieNowPlayingUseCase
+import org.real.flickfusion.usecase.MoviePopularUseCase
+import org.real.flickfusion.usecase.MovieTopRatedUseCase
+import org.real.flickfusion.usecase.MovieTrendingUseCase
+import org.real.flickfusion.usecase.MovieUpcomingUseCase
+import org.real.flickfusion.usecase.SearchUseCase
+import org.real.flickfusion.usecase.TVAiringTodayUseCase
+import org.real.flickfusion.usecase.TVOnTheAirUseCase
+import org.real.flickfusion.usecase.TVPopularUseCase
+import org.real.flickfusion.usecase.TVTopRatedUseCase
+import org.real.flickfusion.usecase.TVTrendingUseCase
 
 /**
  * @author Frank Shao

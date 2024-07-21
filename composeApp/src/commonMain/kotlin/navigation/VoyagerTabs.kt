@@ -6,11 +6,11 @@ import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import cafe.adriel.voyager.navigator.Navigator
 import cafe.adriel.voyager.navigator.tab.Tab
 import cafe.adriel.voyager.navigator.tab.TabOptions
-import flickfusion.composeapp.generated.resources.Res
-import flickfusion.composeapp.generated.resources.ic_account
-import flickfusion.composeapp.generated.resources.ic_favorite
-import flickfusion.composeapp.generated.resources.ic_home
-import flickfusion.composeapp.generated.resources.ic_search
+import org.real.flickfusion.Res
+import org.real.flickfusion.ic_account
+import org.real.flickfusion.ic_favorite
+import org.real.flickfusion.ic_home
+import org.real.flickfusion.ic_search
 import org.jetbrains.compose.resources.vectorResource
 
 /**
