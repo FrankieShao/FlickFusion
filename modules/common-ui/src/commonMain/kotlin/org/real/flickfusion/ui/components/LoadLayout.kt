@@ -2,6 +2,7 @@ package org.real.flickfusion.ui.components
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import org.real.flickfusion.ui.widgets.refresh.UltraSwipeRefresh
 import org.real.flickfusion.ui.widgets.refresh.UltraSwipeRefreshState
 import org.real.flickfusion.ui.widgets.refresh.lottie.LottieRefreshFooter
@@ -34,10 +35,10 @@ fun SmoothLazyColumn(
             onLoadMore()
         },
         headerIndicator = {
-            LottieRefreshHeader(it)
+            LottieRefreshHeader(state = it, Modifier.testTag("RefreshHeader"))
         },
         footerIndicator = {
-            LottieRefreshFooter(it)
+            LottieRefreshFooter(state = it, Modifier.testTag("LoadFooter"))
         }
     ) {
         content()

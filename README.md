@@ -34,8 +34,13 @@ Supports: Android 📱, iOS📱, Desktop
 - **[Koin](https://insert-koin.io/docs/reference/koin-mp/kmp/)**  -  A lightweight dependency injection framework for Kotlin, making it easy to manage dependencies and build testable and maintainable applications.
 - **[Coil3](https://coil-kt.github.io/coil/upgrading_to_coil3/)**  -  An image loading library for Android backed by Kotlin Coroutines, offering efficient image loading and caching.
 - **[Voyager](https://voyager.adriel.cafe/)**  -  A multiplatform navigation library for KMP, simplifying the implementation of navigation within the app.
-- **[Lottie](https://airbnb.io/lottie/#/)**  -  A library for rendering Adobe After Effects animations natively on mobile and web, enhancing the app's UI with high-quality animations.
-- **[Kotlin Serialization](https://kotlinlang.org/docs/serialization.html)**  -  A Kotlin library for JSON serialization and deserialization, enabling seamless handling of JSON data.
+- **[Lottie](https://airbnb.io/lottie/#/)**  -  Library for rendering Adobe After Effects animations natively on mobile and web, enhancing the app's UI with high-quality animations.
+- **[Kotlin Serialization](https://kotlinlang.org/docs/serialization.html)**  -  Library for JSON serialization and deserialization, enabling seamless handling of JSON data.
+- **[kotlin.test](https://kotlinlang.org/api/latest/kotlin.test/)**  -  Testing framework for Kotlin, used for writing unit tests to ensure the app's functionality and reliability.
+- **[mockk](https://mockk.io/)**  -  Mocking library for Kotlin, used for creating mock objects in unit tests to simulate the behavior of real objects.
+- **[Compose Testing](https://developer.android.com/jetpack/compose/testing)**  -  Provides tools and utilities for testing Compose UI components, ensuring the app's UI is functioning as expected.
+- **[turbine](https://github.com/cashapp/turbine)** -  A testing library for Kotlin Flow, used for testing asynchronous code and handling streams of data in unit tests.
+- **[Robolectric](http://robolectric.org/)**  -  Testing framework for Android, used for running unit tests on Android devices and emulators.
 
 ## Screenshots
 
@@ -81,7 +86,6 @@ Obtain an API key from [TMDB](https://developer.themoviedb.org/reference/intro/a
    accountId=your account id
    ```
 ### Todo
-- Unit Tests
 - Search module
 - persist data
 - Error Handling

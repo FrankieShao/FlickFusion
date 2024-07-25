@@ -28,7 +28,12 @@ import org.real.flickfusion.usecase.MovieUpcomingUseCase
  * Description: ViewModel for Main Movie Page
  */
 
-class MovieFeedViewModel : ViewModel(), KoinComponent {
+interface IMovieFeedViewModel {
+    val state: StateFlow<FeedUiState>
+    fun getData()
+}
+
+class MovieFeedViewModel : ViewModel(), KoinComponent, IMovieFeedViewModel {
 
     private val trendingUseCase: MovieTrendingUseCase by inject()
     private val nowPlayingUseCase: MovieNowPlayingUseCase by inject()
@@ -38,13 +43,13 @@ class MovieFeedViewModel : ViewModel(), KoinComponent {
     private val configureRepo: ConfigureRepo by inject()
 
     private val _state = MutableStateFlow<FeedUiState>(FeedUiState.NoData(isRefreshing = true))
-    val state: StateFlow<FeedUiState> = _state
+    override val state: StateFlow<FeedUiState> = _state
 
     init {
         getData()
     }
 
-    fun getData() {
+    override fun getData() {
         // combine multiple data flow into one
         viewModelScope.launch {
             _state.value = if (_state.value is FeedUiState.HasData) {

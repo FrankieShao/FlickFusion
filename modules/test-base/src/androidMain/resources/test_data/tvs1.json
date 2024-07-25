@@ -1,0 +1,408 @@
+[
+  {
+    "adult": false,
+    "backdrop_path": "/mZCq3ldk7hUIyDvfZIOvTrxPWYS.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 209374,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "es",
+    "original_name": "Top Chef VIP",
+    "overview": "",
+    "popularity": 3342.429,
+    "poster_path": "/6Gy1ReRZ9sK9g8TPXZGz7CcQvrV.jpg",
+    "first_air_date": "2022-08-09",
+    "name": "Top Chef VIP",
+    "vote_average": 5.444,
+    "vote_count": 9
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/2Bkqjc9tNWo3KLr1aRYyJ7vMQtM.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 235493,
+    "origin_country": [
+      "NL"
+    ],
+    "original_language": "nl",
+    "original_name": "De Bondgenoten",
+    "overview": "",
+    "popularity": 3220.161,
+    "poster_path": "/wsipinibYxrZhpkQ6MKxIMgL0hv.jpg",
+    "first_air_date": "2023-10-22",
+    "name": "De Bondgenoten",
+    "vote_average": 6.778,
+    "vote_count": 18
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/7MscZ0FGf4bNP0pSIhQn3hz8GXl.jpg",
+    "genre_ids": [
+      99
+    ],
+    "id": 3562,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "NOVA",
+    "overview": "PBS' premier science series helps viewers of all ages explore the science behind the headlines. Along the way, NOVA demystifies science and technology, and highlights the people involved in scientific pursuits.",
+    "popularity": 3844.502,
+    "poster_path": "/giUBXYnDAaJgNqA6iE3BMVE2EHp.jpg",
+    "first_air_date": "1974-03-03",
+    "name": "NOVA",
+    "vote_average": 6.843,
+    "vote_count": 108
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/i8iqYtAy9qcO5RSrA1f6fY1n6SN.jpg",
+    "genre_ids": [
+      10766
+    ],
+    "id": 235484,
+    "origin_country": [
+      "ZA"
+    ],
+    "original_language": "af",
+    "original_name": "Suidooster",
+    "overview": "Suidooster is a South African television soap opera produced by Suidooster Films which revolves around a matriarch, her family, friends and the people of Suidooster, a small shopping and business centre in the fictional Cape Town suburb of Ruiterbosch.",
+    "popularity": 1443.36,
+    "poster_path": "/naCgSiacvV685kait6fBvhVhdce.jpg",
+    "first_air_date": "2015-11-16",
+    "name": "Suidooster",
+    "vote_average": 7.588,
+    "vote_count": 17
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/pR0z4pM0o8oODPdugFG4wq48UXs.jpg",
+    "genre_ids": [],
+    "id": 213220,
+    "origin_country": [
+      "TW"
+    ],
+    "original_language": "zh",
+    "original_name": "都市懼集",
+    "overview": "Do you often feel inexplicably disturbed in this cold, unconcerned city? Those things we are used to but not specifically noticed are not caused by supernatural or spiritual phenomena, but the daily, under-the-surface crises sparked by the fear, ignorance and indifference around us. This is a series without ghosts, monsters, supernatural or sci-fi components. Every story in Urban Horror is happening around us...",
+    "popularity": 2370.833,
+    "poster_path": "/vG7cmUDBvNQDa2pX3yRQSxmprab.jpg",
+    "first_air_date": "2024-07-12",
+    "name": "Urban Horror: Taipei",
+    "vote_average": 9.5,
+    "vote_count": 2
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/vSrR7pq1wtPw85XpiOrdNcYdtUb.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 239526,
+    "origin_country": [
+      "ES"
+    ],
+    "original_language": "es",
+    "original_name": "Sueños de libertad",
+    "overview": "",
+    "popularity": 2314.311,
+    "poster_path": "/95RVeMWMvk97PBW0msryIJC32XD.jpg",
+    "first_air_date": "2024-02-25",
+    "name": "Sueños de libertad",
+    "vote_average": 6,
+    "vote_count": 10
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/7EU7IuIk6CCmYgAVSR91twaVzOL.jpg",
+    "genre_ids": [
+      10766,
+      18
+    ],
+    "id": 243117,
+    "origin_country": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "original_name": "Plus belle la vie, encore plus belle",
+    "overview": "",
+    "popularity": 1728.852,
+    "poster_path": "/5js5JCtxfiYF2MdNn0zGyCwyg8L.jpg",
+    "first_air_date": "2024-01-08",
+    "name": "Plus belle la vie, encore plus belle",
+    "vote_average": 3,
+    "vote_count": 5
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/ot5IHXBQKYDRUkmfR85jNWrOVmZ.jpg",
+    "genre_ids": [
+      10766,
+      18
+    ],
+    "id": 112470,
+    "origin_country": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "original_name": "Ici tout commence",
+    "overview": "This television drama series is centered around the prestigious culinary school of renowned chef Auguste Armand. The show follows the lives of students and staff as they navigate the challenges and pressures of the culinary world—delving into their personal and professional lives, revealing secrets, rivalries, and complex relationships.",
+    "popularity": 1983.22,
+    "poster_path": "/yuTHx38jpogXovMhqNatvozigMJ.jpg",
+    "first_air_date": "2020-11-02",
+    "name": "Here it all begins",
+    "vote_average": 6.99,
+    "vote_count": 48
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/q2gOWmtelceZGmKdLc08t8M443b.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 242099,
+    "origin_country": [
+      "PT"
+    ],
+    "original_language": "pt",
+    "original_name": "Senhora do Mar",
+    "overview": "",
+    "popularity": 1896.486,
+    "poster_path": "/wy4tkwuoWMGEa5Wi8dCvLVuxBzt.jpg",
+    "first_air_date": "2024-02-05",
+    "name": "Senhora do Mar",
+    "vote_average": 7.667,
+    "vote_count": 3
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/jWXrQstj7p3Wl5MfYWY6IHqRpDb.jpg",
+    "genre_ids": [
+      10763
+    ],
+    "id": 94722,
+    "origin_country": [
+      "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Tagesschau",
+    "overview": "German daily news program, the oldest still existing program on German television.",
+    "popularity": 1637.255,
+    "poster_path": "/7dFZJ2ZJJdcmkp05B9NWlqTJ5tq.jpg",
+    "first_air_date": "1952-12-26",
+    "name": "Tagesschau",
+    "vote_average": 6.8,
+    "vote_count": 202
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/zwXvUwXgOHbBJmZSFLmBfAwHDE6.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 243487,
+    "origin_country": [
+      "MX"
+    ],
+    "original_language": "es",
+    "original_name": "Vivir de amor",
+    "overview": "",
+    "popularity": 1672.216,
+    "poster_path": "/5I0koi3lvHtGDhYvfAkLssQKEGO.jpg",
+    "first_air_date": "2024-01-29",
+    "name": "Vivir de amor",
+    "vote_average": 7.483,
+    "vote_count": 58
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/aRtLEHMrcbG5InnfL8l3ZdIWS5I.jpg",
+    "genre_ids": [
+      10751,
+      18
+    ],
+    "id": 246331,
+    "origin_country": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "original_name": "수지맞은 우리",
+    "overview": "A healing romance begins between fallen star doctor Jin Su Ji and stubborn newbie doctor Choi U Ri.",
+    "popularity": 1494.31,
+    "poster_path": "/bGVdZ8nc99GIwCDxmXpGP0oCSzT.jpg",
+    "first_air_date": "2024-03-25",
+    "name": "Su Ji and U Ri",
+    "vote_average": 6.3,
+    "vote_count": 3
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/bEKRyT7WN5TjFKv0JTWI2cyNlak.jpg",
+    "genre_ids": [
+      10766,
+      18
+    ],
+    "id": 223365,
+    "origin_country": [
+      "BR"
+    ],
+    "original_language": "pt",
+    "original_name": "Renascer",
+    "overview": "After making a pact with Jequitibá, José Inocêncio becomes a mythical figure, known as the most successful cocoa farmer in the region. While still young, he wins the heart of Maria Santa. Their intense passion results in four children: José Augusto, José Bento, José Venâncio, and the youngest, João Pedro, who never had the opportunity to know his mother, as she dies while giving birth to him. This tragedy fuels José Inocêncio’s anger, blaming João Pedro for the loss of his great love. Throughout their lives, indifference and resentment mark the relationship between the father and his youngest son. As if the past weren’t enough, years later, the arrival of the mysterious Mariana puts all these emotions to the test when both father and son fall in love with the same woman. This situation reawakens feelings that were either dormant or previously unknown to them.",
+    "popularity": 1331.55,
+    "poster_path": "/kUWvvMkNIf21UUDmHjYw55v6o7C.jpg",
+    "first_air_date": "2024-01-22",
+    "name": "Rebirth",
+    "vote_average": 7.265,
+    "vote_count": 17
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/hpZ5VJP1MvQjuFUMORuAoDFAH30.jpg",
+    "genre_ids": [
+      35,
+      10766,
+      10759
+    ],
+    "id": 222289,
+    "origin_country": [
+      "BR"
+    ],
+    "original_language": "pt",
+    "original_name": "Família é Tudo",
+    "overview": "Five half-siblings – Venus, Andromeda, Jupiter, Electra, and Plutao – share the same father, Pedro. Separated by their respective mothers after Pedro's death, the quintet have had few social and intimate interactions since. Years later, now adults, they reunite when their millionaire grandmother disappears on a cruise and is presumed dead. To earn their inheritance, they will have to live and work together for a year in an attempt to bring the family business back to its peak. If they don't succeed, the inheritance will go to their cousin, Hans, who will do anything to get the money from his aunt.",
+    "popularity": 1366.539,
+    "poster_path": "/tDbJuSfVhf3ZnxiJrXlXEALyAz5.jpg",
+    "first_air_date": "2024-03-04",
+    "name": "Família é Tudo",
+    "vote_average": 6.071,
+    "vote_count": 7
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/hxVGxhIGzae3kxlhLncKa7uBfls.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 120969,
+    "origin_country": [
+      "DE"
+    ],
+    "original_language": "de",
+    "original_name": "First Dates - Ein Tisch für zwei",
+    "overview": "",
+    "popularity": 1475.509,
+    "poster_path": "/eO1iEISDa53ht7Mvf4YbolH9gH6.jpg",
+    "first_air_date": "2018-03-05",
+    "name": "First Dates - Ein Tisch für zwei",
+    "vote_average": 0,
+    "vote_count": 0
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/iF1W066gp2pkPMAqNDCLpqcCXIW.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 248155,
+    "origin_country": [
+      "KR"
+    ],
+    "original_language": "ko",
+    "original_name": "용감무쌍 용수정",
+    "overview": "An ingenuous home-shopping host Yong Sujeong dreams of becoming a successful businesswoman who wins people before money. After losing her parents as a kid, she travels around the country with tinker Yong Jangwon and grows up as a strong woman full of courage. She may look fierce on the outside, but in fact, she is a softhearted, clumsy crybaby and a dork who cannot even make eye contact with her crush, Ju Ujin. Meanwhile, there is Yeo Uiju, a man who gets on her nerves by loafing around her. As a soldier, he is more logical rather than empathetic, but he passes out whenever he gets drunk. He loses his face after meeting Sujeong, who drinks like a fish, but he starts to fall for her. By a twist of fate, he realizes he is the second grandson of Masung Group, and his older brother is Sujeong's crush, Ujin.",
+    "popularity": 1294.585,
+    "poster_path": "/v0Ld4z1pn61Ojb6ujfsyTZoFNPV.jpg",
+    "first_air_date": "2024-05-06",
+    "name": "The Brave Yong Sujeong",
+    "vote_average": 8.5,
+    "vote_count": 2
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/mu3lEhGovyhKHPJzb7HNYtZUCDT.jpg",
+    "genre_ids": [
+      10766
+    ],
+    "id": 206559,
+    "origin_country": [
+      "ZA"
+    ],
+    "original_language": "af",
+    "original_name": "Binnelanders",
+    "overview": "A South African Afrikaans soap opera. It is set in and around the fictional private hospital, Binneland Kliniek, in Pretoria, and the storyline follows the trials, trauma and tribulations of the staff and patients of the hospital.",
+    "popularity": 1245.391,
+    "poster_path": "/v9nGSRx5lFz6KEgfmgHJMSgaARC.jpg",
+    "first_air_date": "2005-10-13",
+    "name": "Binnelanders",
+    "vote_average": 5.6,
+    "vote_count": 71
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/m2D5bhoAB0ewe42m8rfIl0a1ahM.jpg",
+    "genre_ids": [
+      9648,
+      80,
+      10759
+    ],
+    "id": 211089,
+    "origin_country": [
+      "CN"
+    ],
+    "original_language": "zh",
+    "original_name": "唐朝诡事录",
+    "overview": "When the dark evil immortal descends from the heaven, and the mysterious underground ghost palace was revealed, a strange herb named the Black Tea suddenly took Chang'an City by storm. However, no one knows whether it is a healthy medicine or one that could harm people. Cases of missing brides in Chang'an City began occurring one after another, which seems to be inextricably linked to the black tea...  Ling Feng, general of the Jin Wu guards was tasked to investigate these cases. On his journey, he meets his strongest opponent in Su Wu Ming, the disciple of Di Ren Jie. The two of them work together to solve these mysterious cases.",
+    "popularity": 1173.535,
+    "poster_path": "/y8a0sXfO1tn5KGH6mRVn7FnPdkW.jpg",
+    "first_air_date": "2022-09-27",
+    "name": "Strange Tales Of Tang Dynasty",
+    "vote_average": 8.2,
+    "vote_count": 13
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/4rLC2hVMdtxnYafMlMYrK4nclIj.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 21755,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Pawn Stars",
+    "overview": "Go inside the colorful world of the pawn business. At the Gold & Silver Pawn Shop on the outskirts of Las Vegas, generations of the Harrison family run the family business, and there’s clashing and camaraderie every step of the way.",
+    "popularity": 1625.865,
+    "poster_path": "/8GeBQWQOTu7yLwNfCV6iWyL8xNf.jpg",
+    "first_air_date": "2009-07-19",
+    "name": "Pawn Stars",
+    "vote_average": 7.122,
+    "vote_count": 258
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/4VXHABauja7o9hCrt5tf8S6ySSh.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 223129,
+    "origin_country": [
+      "NL"
+    ],
+    "original_language": "nl",
+    "original_name": "Ik Weet Er Alles Van!",
+    "overview": "Quiz in which six candidates, each with their own specialism, try to win a large amount of money for a week. In addition to factual knowledge, human knowledge also plays an important role. The participants can challenge each other to a duel and run off with each other's money. Who knows the most and has the best strategy?",
+    "popularity": 1229.91,
+    "poster_path": "/syHeo1w0EK44qTC6sbB2mckuvVN.jpg",
+    "first_air_date": "2019-07-08",
+    "name": "Ik Weet Er Alles Van!",
+    "vote_average": 8.1,
+    "vote_count": 23
+  }
+]

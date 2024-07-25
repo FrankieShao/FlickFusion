@@ -3,6 +3,7 @@ package org.real.flickfusion.repo
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flatMapConcat
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import org.real.flickfusion.local.AccountLocalSource
 import org.real.flickfusion.remote.AuthGateway
@@ -21,12 +22,27 @@ class AuthRepoImpl(
     override fun login(name: String, psd: String): Flow<Result<Boolean>> =
         authGateway.requestToken()
             .flatMapConcat { tokenResult ->
-                authGateway.validateToken(name, psd, tokenResult.getOrNull()!!)
+                tokenResult.getOrNull()?.let { validResult ->
+                    authGateway.validateToken(name, psd, validResult)
+                } ?: flowOf(
+                    Result.failure(IllegalStateException(tokenResult.exceptionOrNull()?.message))
+                )
             }.flatMapConcat { validateResult ->
-                authGateway.createSession(validateResult.getOrNull()!!)
-            }.map {
-                accountLocalSource.saveSession(it.getOrNull()!!)
-                Result.success(it.isSuccess)
+                validateResult.getOrNull()?.let { validResult ->
+                    authGateway.createSession(validResult)
+                } ?: flowOf(
+                    Result.failure(IllegalStateException(validateResult.exceptionOrNull()?.message))
+                )
+            }.map { sessionResult ->
+                (if (sessionResult.isSuccess) {
+                    sessionResult.getOrNull()?.let {
+                        accountLocalSource.saveSession(it)
+                        Result.success(true)
+                    } ?:
+                    Result.failure(IllegalStateException("Create session failed"))
+                } else {
+                    Result.failure(IllegalStateException(sessionResult.exceptionOrNull()?.message))
+                })
             }
 
     @OptIn(ExperimentalCoroutinesApi::class)

@@ -8,17 +8,20 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.core.screen.uniqueScreenKey
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import detail.MediaDetailViewModel
 import detail.MediaDetailScreen
+import detail.MediaDetailViewModel
 import favorite.FavoriteMainScreen
+import favorite.IFavoriteMainViewModel
 import feature.main.HomeMainScreen
 import feature.main.list.CategoryList
 import feature.main.list.CategoryListViewModel
+import feature.main.movie.vm.IMovieFeedViewModel
+import feature.main.tv.vm.ITVFeedViewModel
 import org.koin.compose.koinInject
 import org.real.flickfusion.model.MediaType
 import org.real.flickfusion.util.collectAsStateWithLifecycle
-import profile.MineViewModel
 import profile.MineScreen
+import profile.MineViewModel
 import search.SearchMainScreen
 
 /**
@@ -35,11 +38,16 @@ class HomeMainScreen : Screen {
     @Composable
     override fun Content() {
         val navigator = LocalNavigator.currentOrThrow
-        HomeMainScreen(toMediaDetail = { id, type ->
-            navigator.push(MediaDetailScreen(id, type))
-        }, toCategory = { category, mediaType ->
-            navigator.push(CategoryListScreen(category, mediaType))
-        })
+        val viewModelMovie: IMovieFeedViewModel = koinInject()
+        val viewModelTV: ITVFeedViewModel = koinInject()
+        HomeMainScreen(
+            iMovieFeedViewModel = viewModelMovie,
+            iTVFeedViewModel = viewModelTV,
+            toMediaDetail = { id, type ->
+                navigator.push(MediaDetailScreen(id, type))
+            }, toCategory = { category, mediaType ->
+                navigator.push(CategoryListScreen(category, mediaType))
+            })
     }
 }
 
@@ -107,7 +115,9 @@ class FavoriteScreen : Screen {
     @Composable
     override fun Content() {
         val navigator = LocalNavigator.currentOrThrow
-        FavoriteMainScreen {
+
+        val viewModel: IFavoriteMainViewModel = koinInject()
+        FavoriteMainScreen(viewModel) {
             navigator.push(MediaDetailScreen(it.id, it.type.value))
             navigator.push(MediaDetailScreen(it.id.toString(), it.type.value))
         }

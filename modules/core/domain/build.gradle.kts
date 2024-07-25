@@ -1,7 +1,5 @@
-import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import java.util.Properties
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
@@ -30,6 +28,17 @@ kotlin {
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.kotlinx.serialization.json)
         }
+        commonTest.dependencies {
+            implementation(libs.bundles.test.common)
+        }
+
+        val androidUnitTest by getting {
+            dependencies {
+                implementation(libs.bundles.test.android)
+                implementation(project(":modules:test-base"))
+            }
+        }
+
     }
 }
 
@@ -44,8 +53,4 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-/*    buildFeatures {
-        compose = true
-    }*/
-
 }

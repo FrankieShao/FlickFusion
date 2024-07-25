@@ -25,6 +25,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.painter.ColorPainter
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -50,14 +51,14 @@ import org.real.flickfusion.util.collectAsStateWithLifecycle
  */
 @Composable
 fun MediaDetailScreen(
-    viewModel: MediaDetailViewModel,
+    viewModel: IMediaDetailViewModel,
     naviBack: () -> Unit
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     when {
         state.isRefreshing -> {
             CommonLoadingView(
-                modifier = Modifier.padding(top = 180.dp),
+                modifier = Modifier.padding(top = 180.dp).testTag("CommonLoadingView"),
             )
         }
 

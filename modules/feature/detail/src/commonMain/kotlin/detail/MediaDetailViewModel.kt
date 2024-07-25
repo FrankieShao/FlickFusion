@@ -41,15 +41,19 @@ sealed interface UiState : IUiState {
     }
 }
 
+interface IMediaDetailViewModel {
+    val state: StateFlow<UiState>
+}
+
 class MediaDetailViewModel(
     private val mediaType: MediaType,
     private val mediaId: Int
-) : ViewModel(), KoinComponent {
+) : ViewModel(), KoinComponent, IMediaDetailViewModel {
 
     private val mediaDetailUseCase: MediaDetailUseCase by inject()
 
     private val _state = MutableStateFlow<UiState>(UiState.NoData(isRefreshing = true))
-    val state: StateFlow<UiState> = _state
+    override val state: StateFlow<UiState> = _state
 
     init {
         loadData()

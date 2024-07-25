@@ -15,6 +15,7 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.ColorPainter
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import org.jetbrains.compose.resources.stringResource
@@ -83,7 +84,7 @@ fun SimpleDisplayRow(
     val lazyListState = rememberLazyListState()
     LazyRow(
         state = lazyListState,
-        modifier = modifier,
+        modifier = modifier.testTag("LazyRow"),
         contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 8.dp, bottom = 14.dp),
         horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
@@ -94,7 +95,7 @@ fun SimpleDisplayRow(
             SimplePosterDisplay(
                 modifier = Modifier
                     .width(IMAGE_WIDTH)
-                    .height(IMAGE_HEIGHT),
+                    .height(IMAGE_HEIGHT).testTag(items[index].id),
                 item = items[index],
                 onItemClick = onItemClick
             )

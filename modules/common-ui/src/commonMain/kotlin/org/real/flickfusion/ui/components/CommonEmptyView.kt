@@ -9,6 +9,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import org.real.flickfusion.ui.IUiState
 import org.real.flickfusion.ui.theme.SELECTED_COLOR
 
@@ -22,7 +23,7 @@ import org.real.flickfusion.ui.theme.SELECTED_COLOR
 fun CommonEmptyView(uiState: IUiState) {
     Column(
         modifier = Modifier
-            .fillMaxSize(),
+            .fillMaxSize().testTag("CommonEmptyView"),
         verticalArrangement = Arrangement.Center
     ) {
         Text(

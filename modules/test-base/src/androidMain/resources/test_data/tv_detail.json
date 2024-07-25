@@ -1,0 +1,127 @@
+{
+  "adult": false,
+  "backdrop_path": "/mZCq3ldk7hUIyDvfZIOvTrxPWYS.jpg",
+  "created_by": [],
+  "episode_run_time": [],
+  "first_air_date": "2022-08-09",
+  "genres": [
+    {
+      "id": 10764,
+      "name": "Reality"
+    }
+  ],
+  "homepage": "",
+  "id": 209374,
+  "in_production": true,
+  "languages": [
+    "es"
+  ],
+  "last_air_date": "2024-07-15",
+  "last_episode_to_air": {
+    "id": 5485379,
+    "name": "Programa 54",
+    "overview": "",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2024-07-22",
+    "episode_number": 54,
+    "episode_type": "standard",
+    "production_code": "",
+    "runtime": null,
+    "season_number": 3,
+    "show_id": 209374,
+    "still_path": null
+  },
+  "name": "Top Chef VIP",
+  "next_episode_to_air": {
+    "id": 5485380,
+    "name": "Programa 55",
+    "overview": "",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2024-07-23",
+    "episode_number": 55,
+    "episode_type": "standard",
+    "production_code": "",
+    "runtime": null,
+    "season_number": 3,
+    "show_id": 209374,
+    "still_path": null
+  },
+  "networks": [
+    {
+      "id": 193,
+      "logo_path": "/mieMBXx82qgY8nmnyaH0rY2D943.png",
+      "name": "Telemundo",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 150,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "es",
+  "original_name": "Top Chef VIP",
+  "overview": "",
+  "popularity": 3271.392,
+  "poster_path": "/6Gy1ReRZ9sK9g8TPXZGz7CcQvrV.jpg",
+  "production_companies": [
+    {
+      "id": 59028,
+      "logo_path": "/lV4ZJIG0MrYgqFZz1rjhyEUe1Xc.png",
+      "name": "RCN",
+      "origin_country": "CO"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "CO",
+      "name": "Colombia"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-08-08",
+      "episode_count": 35,
+      "id": 307028,
+      "name": "Temporada 1",
+      "overview": "",
+      "poster_path": "/6Gy1ReRZ9sK9g8TPXZGz7CcQvrV.jpg",
+      "season_number": 1,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2023-04-24",
+      "episode_count": 62,
+      "id": 339198,
+      "name": "Temporada 2",
+      "overview": "",
+      "poster_path": "/w5qGyxOkCFhzdV6WptPjPVJN81X.jpg",
+      "season_number": 2,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2024-05-21",
+      "episode_count": 59,
+      "id": 389452,
+      "name": "Temporada 3",
+      "overview": "",
+      "poster_path": "/lriWGS6hfnEstFmUzBMy9ehNVsO.jpg",
+      "season_number": 3,
+      "vote_average": 0
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "Spanish",
+      "iso_639_1": "es",
+      "name": "Español"
+    }
+  ],
+  "status": "Returning Series",
+  "tagline": "",
+  "type": "Reality",
+  "vote_average": 5.444,
+  "vote_count": 9
+}

@@ -12,6 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import feature.main.component.DisplayFeed
 import feature.main.entity.FeedUiState
+import feature.main.movie.vm.IMovieFeedViewModel
 import feature.main.movie.vm.MovieFeedViewModel
 import org.jetbrains.compose.ui.tooling.preview.Preview
 import org.koin.compose.koinInject
@@ -28,10 +29,10 @@ import org.real.flickfusion.ui.theme.SELECTED_COLOR
 @Composable
 fun MoviePage(
     modifier: Modifier = Modifier,
+    viewModel: IMovieFeedViewModel,
     onItemClick: (String) -> Unit,
     onEnterList: (String) -> Unit
 ) {
-    val viewModel: MovieFeedViewModel = koinInject()
     val uiState by viewModel.state.collectAsStateWithLifecycle()
 
     MoviePageMain(

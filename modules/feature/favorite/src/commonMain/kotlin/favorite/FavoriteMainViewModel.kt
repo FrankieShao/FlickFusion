@@ -44,20 +44,26 @@ sealed interface UiState : IUiState {
     }
 }
 
-class FavoriteMainViewModel : ViewModel(), KoinComponent {
+interface IFavoriteMainViewModel {
+    val state: StateFlow<UiState>
+    fun refresh()
+    fun loadMore()
+}
+
+class FavoriteMainViewModel : ViewModel(), KoinComponent, IFavoriteMainViewModel {
 
     private val favoriteMovie: FavoriteMovieUseCase by inject()
     private val favoriteTV: FavoriteTvUseCase by inject()
     private val configureRepo: ConfigureRepo by inject()
 
     private val _state = MutableStateFlow<UiState>(UiState.NoData(isRefreshing = true))
-    val state: StateFlow<UiState> = _state
+    override val state: StateFlow<UiState> = _state
 
     init {
         refresh()
     }
 
-    fun refresh() {
+    override fun refresh() {
         viewModelScope.launch {
             _state.value = if (_state.value is UiState.HasData) {
                 (_state.value as UiState.HasData).copy(
@@ -96,7 +102,7 @@ class FavoriteMainViewModel : ViewModel(), KoinComponent {
         }
     }
 
-    fun loadMore() {
+    override fun loadMore() {
         val lastUiState = _state.value as? UiState.HasData ?: return
 
         viewModelScope.launch {

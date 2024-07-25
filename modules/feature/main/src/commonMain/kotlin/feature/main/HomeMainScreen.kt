@@ -12,7 +12,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import feature.main.movie.ui.MoviePage
+import feature.main.movie.vm.IMovieFeedViewModel
 import feature.main.tv.ui.TVPage
+import feature.main.tv.vm.ITVFeedViewModel
 import kotlinx.coroutines.launch
 import org.real.flickfusion.model.MediaType
 import org.real.flickfusion.ui.components.PageIndicator
@@ -26,6 +28,8 @@ import org.real.flickfusion.ui.components.PageIndicator
 @Composable
 @OptIn(ExperimentalFoundationApi::class)
 fun HomeMainScreen(
+    iMovieFeedViewModel: IMovieFeedViewModel,
+    iTVFeedViewModel: ITVFeedViewModel,
     toMediaDetail: (String, String) -> Unit,
     toCategory: (String, String) -> Unit
 ) {
@@ -52,6 +56,7 @@ fun HomeMainScreen(
         ) {
             when (it) {
                 1 -> TVPage(
+                    viewModel = iTVFeedViewModel,
                     onItemClick = { id ->
                         toMediaDetail(id, MediaType.TV.value)
                     }, onEnterList = { category ->
@@ -59,6 +64,7 @@ fun HomeMainScreen(
                     })
 
                 else -> MoviePage(
+                    viewModel = iMovieFeedViewModel,
                     onItemClick = { id ->
                         toMediaDetail(id, MediaType.MOVIE.value)
                     }, onEnterList = { category ->

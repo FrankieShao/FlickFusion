@@ -1,0 +1,414 @@
+[
+  {
+    "adult": false,
+    "backdrop_path": "/iRaNijTQmVm8Mwh0hBRBkgMOFeg.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 255401,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "My Mother's Secret",
+    "overview": "My Mother's Secret is a 2015 Philippine television drama series broadcast by GMA Network. Directed by Neal del Rosario, it stars Kim Rodriguez and Gwen Zamora in the title role. It premiered on May 25, 2015 on the network's Telebabad line up. The series concluded on August 7, 2015 with a total of 54 episodes.",
+    "popularity": 838.146,
+    "poster_path": "/9W54b9Ax1Jo6nmLTfT3U37T30g5.jpg",
+    "first_air_date": "2015-05-25",
+    "name": "My Mother's Secret",
+    "vote_average": 0,
+    "vote_count": 0
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/kYJLta7vNMoULLI9LVppgWWF1sC.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 256707,
+    "origin_country": [
+      "ES"
+    ],
+    "original_language": "es",
+    "original_name": "Supervivientes All Stars",
+    "overview": "",
+    "popularity": 816.462,
+    "poster_path": "/p6NZtvxSawVt2222CU7aliIQSUL.jpg",
+    "first_air_date": "2024-06-19",
+    "name": "Supervivientes All Stars",
+    "vote_average": 0,
+    "vote_count": 0
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/ottT2Yt0OfHiHp3PHJTLNVV8JPE.jpg",
+    "genre_ids": [
+      18,
+      10766
+    ],
+    "id": 13945,
+    "origin_country": [
+      "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Gute Zeiten, schlechte Zeiten",
+    "overview": "Gute Zeiten, schlechte Zeiten is a long-running German television soap opera, first broadcast on RTL in 1992. The programme concerns the lives of a fictional neighborhood in Germany's capital city Berlin. Over the years the soap opera tends to have an overhaul of young people in their late teens and early twenties; targeting a young viewership.",
+    "popularity": 1073.349,
+    "poster_path": "/fNHBzjxsydcAssxXqb5IV2obDdU.jpg",
+    "first_air_date": "1992-05-11",
+    "name": "Gute Zeiten, schlechte Zeiten",
+    "vote_average": 5.833,
+    "vote_count": 30
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/3xVmBU66Ukp79BBKAbHMySSAqq3.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 242101,
+    "origin_country": [
+      "PT"
+    ],
+    "original_language": "pt",
+    "original_name": "Cacau",
+    "overview": "Cacau is an engaging saga of family secrets, clandestine loves and sacrifices, all sweetened by the irresistible taste of chocolate and the magic of cocoa plantations.",
+    "popularity": 1048.873,
+    "poster_path": "/nNCFBKZ68fmr008moWSzLdu2mUP.jpg",
+    "first_air_date": "2024-01-15",
+    "name": "Cacau",
+    "vote_average": 5.5,
+    "vote_count": 8
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/n9u72dPMB1e3IpgN3LHRaons6gw.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 79855,
+    "origin_country": [
+      "FR"
+    ],
+    "original_language": "fr",
+    "original_name": "Questions pour un champion",
+    "overview": "Samuel Etienne hosts this emblematic game, which sees four candidates compete each evening around questions of general culture.",
+    "popularity": 651.764,
+    "poster_path": "/tKb3dm32wUDQmWNfygbvTkYKobb.jpg",
+    "first_air_date": "",
+    "name": "Questions pour un champion",
+    "vote_average": 4.3,
+    "vote_count": 6
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/nlLKuyFz6lI0KyiY1V1AE2GwGX9.jpg",
+    "genre_ids": [
+      35,
+      18,
+      10766
+    ],
+    "id": 32209,
+    "origin_country": [
+      "PE"
+    ],
+    "original_language": "es",
+    "original_name": "Al Fondo Hay Sitio",
+    "overview": "Al fondo hay sitio is a Peruvian TV series created in 2008-2009 by Efraín Aguilar. It deals with the problems of social differences and economic status. It's one of the most popular shows in Peru and is now being shown in Ecuador, Bolivia, Paraguay and Uruguay.",
+    "popularity": 1011.567,
+    "poster_path": "/g7cuCCkvoBuSwemTHYz3k0hvvmz.jpg",
+    "first_air_date": "2009-03-30",
+    "name": "Al Fondo Hay Sitio",
+    "vote_average": 8.015,
+    "vote_count": 199
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/nCXV9ARvIE2Yc9tLg6pBwpPpPld.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 8892,
+    "origin_country": [
+      "PH"
+    ],
+    "original_language": "tl",
+    "original_name": "Pinoy Big Brother",
+    "overview": "The Philippine adaptation of the reality game show \"Big Brother\" features Filipino housemates live together, share their stories and build meaningful relationships as they do tasks and challenges supervised by Big Brother. Every week a nomination is done, and the public decides who gets evicted and eventually become the Big Winner of the program.",
+    "popularity": 1009.968,
+    "poster_path": null,
+    "first_air_date": "2005-08-21",
+    "name": "Pinoy Big Brother",
+    "vote_average": 5,
+    "vote_count": 1
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/hUz0UHWSVd6e1g3I6vT4shAsnoY.jpg",
+    "genre_ids": [
+      10766,
+      18,
+      80
+    ],
+    "id": 1871,
+    "origin_country": [
+      "GB"
+    ],
+    "original_language": "en",
+    "original_name": "EastEnders",
+    "overview": "The everyday lives of working-class residents of Albert Square, a traditional Victorian square of terrace houses surrounding a park in the East End of London's Walford borough.",
+    "popularity": 880.302,
+    "poster_path": "/z4jgyI5TpoRZiJTNchkVkMrGQyz.jpg",
+    "first_air_date": "1985-02-19",
+    "name": "EastEnders",
+    "vote_average": 4.04,
+    "vote_count": 202
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/3ZzSaTwUC7wNd9CNTDQ76eP6guG.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 10222,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Real Housewives of Orange County",
+    "overview": "A view into the lives of several women and their families who live in one of the wealthiest communities in the country with the viewer taken \"inside the gates\" to show their lives aren't always perfect.",
+    "popularity": 871.335,
+    "poster_path": "/mEg3ohdBkLOs0L1GmYGtiwyJXlE.jpg",
+    "first_air_date": "2006-03-21",
+    "name": "The Real Housewives of Orange County",
+    "vote_average": 5.4,
+    "vote_count": 61
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/lKSHKIpBfmi3C5dLEJUraLHZdns.jpg",
+    "genre_ids": [
+      80,
+      18,
+      9648
+    ],
+    "id": 86848,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Evil",
+    "overview": "Skeptical forensic psychologist Kristen Bouchard joins priest-in-training David Acosta and technology expert Ben Shakir as they investigate supposed miracles, demonic possessions, and other extraordinary occurrences to assess for a scientific explanation or if something truly supernatural is at work.",
+    "popularity": 616.484,
+    "poster_path": "/auRAAVxlyT6YACql96UdtnpFHy3.jpg",
+    "first_air_date": "2019-09-26",
+    "name": "Evil",
+    "vote_average": 7.7,
+    "vote_count": 590
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/AoKpDxiDcJxcchgSaUvOBpVJHVQ.jpg",
+    "genre_ids": [
+      18,
+      10766
+    ],
+    "id": 2354,
+    "origin_country": [
+      "AU"
+    ],
+    "original_language": "en",
+    "original_name": "Home and Away",
+    "overview": "Home and Away is set in the fictional town of Summer Bay, a coastal town in New South Wales, and follows the personal and professional lives of the people living in the area. The show initially focused on the Fletcher family, Pippa and Tom Fletcher and their five foster children Frank Morgan, Carly Morris, Steven Matheson, Lynn Davenport and Sally Keating, who would go on to become one of the show's longest-running characters. The show also originally and currently focuses on the Stewart family. During the early 2000s, the central storylines focused on the Sutherlands and later, the Hunters. Home and Away had proved popular when it premiered in 1988 and had risen to become a hit in Australia, and after only a few weeks, the show tackled its first major and disturbing storyline, the rape of Carly Morris; it was one of the first shows to feature such storylines during the early timeslot. H&A has tackled many adult-themed and controversial storylines; something rarely found in its restricted timeslot.",
+    "popularity": 861.265,
+    "poster_path": "/vn0eKMiG69bhQtxb7qLRo8SSqu5.jpg",
+    "first_air_date": "1988-01-17",
+    "name": "Home and Away",
+    "vote_average": 6.385,
+    "vote_count": 65
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/ubsOcnbFNurs2znxNzy9OgmP3gB.jpg",
+    "genre_ids": [
+      10766,
+      18,
+      10759,
+      10765
+    ],
+    "id": 247884,
+    "origin_country": [
+      "MX"
+    ],
+    "original_language": "es",
+    "original_name": "Fugitivas - En Busca de la Libertad",
+    "overview": "Lorena, Frida, Lisset and Montse, four friends who are in prison serving a sentence. One of them is accused unjustly. In the prison where they are held there is a massive escape and they escape. After their escape, the fugitives take refuge in a bar looking for the opportunity to start a new life.",
+    "popularity": 850.282,
+    "poster_path": "/oqHWSZmoCgz7JPsbNXihASGnfLW.jpg",
+    "first_air_date": "2024-07-01",
+    "name": "Fugitivas - En Busca de la Libertad",
+    "vote_average": 8,
+    "vote_count": 6
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/u4Lh4viuwHGVLFyUnY7YvwOTwl0.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 252373,
+    "origin_country": [
+      "PT"
+    ],
+    "original_language": "pt",
+    "original_name": "A Promessa",
+    "overview": "",
+    "popularity": 838.698,
+    "poster_path": "/uptgxt2apx5wwWItQzqL0HwhjZC.jpg",
+    "first_air_date": "2024-06-18",
+    "name": "A Promessa",
+    "vote_average": 8,
+    "vote_count": 1
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/wGfOVsTsLCJag3RPafLyU7AshLv.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "id": 29173,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "House Hunters International",
+    "overview": "This spin-off of the wildly popular House Hunters goes around the globe. Home hunters and their realtors check out all sorts of architectural styles and work through the quirks of buying real estate in other countries.",
+    "popularity": 811.252,
+    "poster_path": "/uzPQ3FvOtmMrvGsNnKPoIJuMJON.jpg",
+    "first_air_date": "2006-03-06",
+    "name": "House Hunters International",
+    "vote_average": 6.5,
+    "vote_count": 21
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/AfH4RQ8q3eTTaX2caFfzt81rLt8.jpg",
+    "genre_ids": [
+      10766
+    ],
+    "id": 966,
+    "origin_country": [
+      "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Hollyoaks",
+    "overview": "The daily soap that follows the loves, lives and misdemeanours of a group of people living in the Chester village of Hollyoaks where anything could, and frequently does, happen...",
+    "popularity": 554.981,
+    "poster_path": "/5sbMgcbpzZn8aKETeanrKDANzdM.jpg",
+    "first_air_date": "1995-10-23",
+    "name": "Hollyoaks",
+    "vote_average": 5.025,
+    "vote_count": 60
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/1iAc3ML51uNe16jlxTQV84mLHG2.jpg",
+    "genre_ids": [
+      10766
+    ],
+    "id": 40879,
+    "origin_country": [
+      "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Dahoam is Dahoam",
+    "overview": "The lives of the residents of the fictitious village of Lansing in Upper Bavaria.",
+    "popularity": 765.184,
+    "poster_path": "/tGXZEUgSbgufoOpXMImSKPDd5A3.jpg",
+    "first_air_date": "2007-10-08",
+    "name": "Dahoam is Dahoam",
+    "vote_average": 5.6,
+    "vote_count": 5
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/qJnjJXBLgG4tummCm792nvNz7u1.jpg",
+    "genre_ids": [
+      10767
+    ],
+    "id": 23915,
+    "origin_country": [
+      "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Markus Lanz",
+    "overview": "TV presenter Markus Lanz invites prominent guests and experts from all areas of public life to his colourful talk show. As a rule, there are four guests, introduced individually to contribute their personal experiences to the topics.",
+    "popularity": 744.884,
+    "poster_path": "/tr4cLn4ecRASV0SPM9FRv0AJOQF.jpg",
+    "first_air_date": "2008-06-03",
+    "name": "Markus Lanz",
+    "vote_average": 5.2,
+    "vote_count": 9
+  },
+  {
+    "adult": false,
+    "backdrop_path": null,
+    "genre_ids": [
+      10764
+    ],
+    "id": 20812,
+    "origin_country": [
+      "HU"
+    ],
+    "original_language": "hu",
+    "original_name": "Való Világ",
+    "overview": "",
+    "popularity": 486.232,
+    "poster_path": "/kQ6EfC1igZRNSSsnQbLG2mrOLwj.jpg",
+    "first_air_date": "2002-09-09",
+    "name": "Való Világ",
+    "vote_average": 3.1,
+    "vote_count": 9
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/ISJv5bCeFtXc3Si5OBPHkPdWmi.jpg",
+    "genre_ids": [
+      99
+    ],
+    "id": 77594,
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "en",
+    "original_name": "Japan Railway Journal",
+    "overview": "Discover the secrets of Japan's railways, from the newest technologies and systems in use, to travel tips and must-see places.",
+    "popularity": 709.124,
+    "poster_path": "/p6CbYkUQxsdp5FUyzFvh5twXZRQ.jpg",
+    "first_air_date": "2015-03-09",
+    "name": "Japan Railway Journal",
+    "vote_average": 8,
+    "vote_count": 2
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/e7MSbwYRVqd4rZQQWcNuJvOSHLC.jpg",
+    "genre_ids": [
+      10766,
+      18
+    ],
+    "id": 881,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Days of Our Lives",
+    "overview": "The Horton and Brady broods endure the romantic trials of life in Salem, a Midwestern hamlet filled with evil geniuses, star-crossed lovers and a rich family history.",
+    "popularity": 673.788,
+    "poster_path": "/ieyvdmqnlzWeVU7IF3rjqVVJax9.jpg",
+    "first_air_date": "1965-11-08",
+    "name": "Days of Our Lives",
+    "vote_average": 5.908,
+    "vote_count": 131
+  }
+]

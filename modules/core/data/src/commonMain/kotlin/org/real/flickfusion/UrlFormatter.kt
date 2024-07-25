@@ -7,9 +7,17 @@ package org.real.flickfusion
  */
 
 fun UrlFormatter(url: String, param: String) : String {
-    return url.replace("$", param)
+    if (url.isEmpty() || param.isEmpty()) {
+        throw IllegalArgumentException("url or param is empty")
+    } else {
+        return url.replace("$", param)
+    }
 }
 
 fun UrlFormatter(url: String, param: Int) : String {
-    return url.replace("$", param.toString())
+    if (url.isEmpty() || param == 0) {
+        throw IllegalArgumentException("url or param is empty")
+    } else {
+        return url.replace("$", param.toString())
+    }
 }

@@ -15,6 +15,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import org.koin.compose.koinInject
@@ -33,8 +34,7 @@ import org.real.flickfusion.ui.theme.TITLE_WHITE
  */
 
 @Composable
-fun FavoriteMainScreen(onItemClicked: (DisplayItem) -> Unit = {}) {
-    val viewModel: FavoriteMainViewModel = koinInject()
+fun FavoriteMainScreen(viewModel: IFavoriteMainViewModel, onItemClicked: (DisplayItem) -> Unit = {}) {
     val uiState by viewModel.state.collectAsStateWithLifecycle()
 
     Column(
@@ -90,7 +90,7 @@ fun FavoriteList(uiState: UiState,
         when (uiState) {
             is UiState.HasData -> {
                 LazyVerticalGrid(
-                    modifier = Modifier.fillMaxSize(),
+                    modifier = Modifier.fillMaxSize().testTag("LazyGrid"),
                     columns = GridCells.Fixed(3),
                     contentPadding = PaddingValues(horizontal = 16.dp, vertical = 10.dp),
                     verticalArrangement = Arrangement.spacedBy(16.dp),
@@ -100,7 +100,7 @@ fun FavoriteList(uiState: UiState,
                         key = { index -> uiState.data[index].id }) { index ->
                         SimplePosterDisplay(modifier = Modifier
                             .width(70.dp)
-                            .height(165.dp),
+                            .height(165.dp).testTag(uiState.data[index].id),
                             item = uiState.data[index],
                             onItemClick = { onItemClicked(uiState.data[index]) })
                     }

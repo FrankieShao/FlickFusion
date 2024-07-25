@@ -12,6 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import feature.main.component.DisplayFeed
 import feature.main.entity.FeedUiState
+import feature.main.tv.vm.ITVFeedViewModel
 import feature.main.tv.vm.TVFeedViewModel
 import org.koin.compose.koinInject
 import org.real.flickfusion.util.collectAsStateWithLifecycle
@@ -27,10 +28,10 @@ import org.real.flickfusion.ui.theme.SELECTED_COLOR
 @Composable
 fun TVPage(
     modifier: Modifier = Modifier,
+    viewModel: ITVFeedViewModel,
     onItemClick: (String) -> Unit,
     onEnterList: (String) -> Unit
 ) {
-    val viewModel: TVFeedViewModel = koinInject()
     val uiState by viewModel.state.collectAsStateWithLifecycle()
     val state = rememberUltraSwipeRefreshState()
     state.isRefreshing = uiState.isRefreshing

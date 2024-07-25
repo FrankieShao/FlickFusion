@@ -27,7 +27,13 @@ import org.real.flickfusion.usecase.TVTrendingUseCase
  * @created 04/06/2024
  * Description: TV Feed ViewModel
  */
-class TVFeedViewModel : ViewModel(), KoinComponent {
+
+interface ITVFeedViewModel {
+    val state: StateFlow<FeedUiState>
+    fun getData()
+}
+
+class TVFeedViewModel : ViewModel(), KoinComponent, ITVFeedViewModel {
 
     private val trendingUseCase: TVTrendingUseCase by inject()
     private val airingTodayUseCase: TVAiringTodayUseCase by inject()
@@ -36,14 +42,14 @@ class TVFeedViewModel : ViewModel(), KoinComponent {
     private val onTheAirUseCase: TVOnTheAirUseCase by inject()
     private val configureRepo: ConfigureRepo by inject()
     private val _state = MutableStateFlow<FeedUiState>(FeedUiState.NoData(isRefreshing = true))
-    val state: StateFlow<FeedUiState> = _state
+    override val state: StateFlow<FeedUiState> = _state
 
     init {
         getData()
     }
 
     // merge vs combine
-    fun getData() {
+    override fun getData() {
         // combine multiple data flow into one
         viewModelScope.launch {
             _state.value = if (_state.value is FeedUiState.HasData) {

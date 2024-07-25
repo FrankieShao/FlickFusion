@@ -1,5 +1,6 @@
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.plugin.KotlinSourceSetTree
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
@@ -15,6 +16,8 @@ kotlin {
         compilerOptions {
             jvmTarget.set(JvmTarget.JVM_11)
         }
+        @OptIn(ExperimentalKotlinGradlePluginApi::class)
+        instrumentedTestVariant.sourceSetTree.set(KotlinSourceSetTree.test)
     }
     jvm("desktop")
 
@@ -46,6 +49,24 @@ kotlin {
             implementation(project(":modules:util"))
             implementation(project(":modules:common-ui"))
         }
+        commonTest.dependencies {
+            implementation(libs.bundles.test.common)
+            implementation(project(":modules:test-base"))
+        }
+        val androidUnitTest by getting {
+            dependencies {
+                implementation(libs.bundles.test.android)
+                implementation(libs.robolectric)
+                implementation(libs.androidx.ui.test.junit4.android)
+                implementation(project(":modules:test-base"))
+            }
+        }
+        val androidInstrumentedTest by getting {
+            dependencies {
+                implementation(libs.bundles.test.android)
+                implementation(project(":modules:test-base"))
+            }
+        }
     }
 }
 
@@ -55,16 +76,32 @@ android {
 
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
+    packaging {
+        resources {
+            excludes += "/META-INF/*"
+        }
+    }
     buildFeatures {
         compose = true
     }
+    testOptions {
+        unitTests {
+            isIncludeAndroidResources = true
+        }
+    }
     dependencies {
         debugImplementation(compose.uiTooling)
+        androidTestImplementation(libs.androidx.ui.test.junit4.android)
+        debugImplementation(libs.androidx.ui.test.manifest)
+        testImplementation(libs.robolectric)
     }
 
 }
